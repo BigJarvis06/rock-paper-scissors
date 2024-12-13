@@ -11,3 +11,7 @@ computerChoice = "Scissors";
     return computerChoice;
 }
 /* create function named getUserChoice to prompt the user to input an option of rock paper or scissors and return a number value between 1 - 3 */
+function getHumanChoice() {
+let humanChoice = prompt().toLowerCase();
+
+}
