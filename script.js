@@ -1,3 +1,5 @@
+let humanScore = 0;
+let computerScore = 0;
 /* create function  named getComputerChoice to generate a number between 1 - 3 and return a string value of either rock paper or scissors */
 function getComputerChoice() {
     let computerChoice = Math.floor(Math.random() * 3) + 1;
@@ -15,3 +17,4 @@ function getHumanChoice() {
 let humanChoice = prompt().toLowerCase();
 
 }
+/* create function to compare humanChoice and Computer choice and delcare a round winner*/
